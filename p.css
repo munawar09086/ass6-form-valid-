@@ -1,0 +1,68 @@
+body
+{
+    background-color: #bbbbbb;
+}
+
+.form-section
+{
+    margin-top: 70px;
+}
+
+.form-section h1
+{
+    color: white;
+    text-align: center;
+    background-color: #9b9b9b;
+    max-width: fit-content;
+    margin: 12px auto;
+    padding: 15px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7px;
+    box-shadow: 5px 5px 1px rgb(0, 0, 0);
+}
+
+.form-body
+{
+    max-width: fit-content;
+    margin: 30px auto;
+    padding: 60px;
+    background: #9b9b9b;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7px;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+.form-body label
+{
+    display: block;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-body input,textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.submitbtn
+{
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#warning
+{
+    text-align: center;
+    color: red;
+}
